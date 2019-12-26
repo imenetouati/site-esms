@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>Inscription</title>
+    </head>
+
+    <body >
+
+    <ul class="nav nav-tabs" style="text-align:center">
+    <li class="nav-item">
+        <img class="nav-link" style="width:150px;height:65px;overflow:hidden;" src="img/logo.png" alt="logo" href="index.html">
+      </li>
+      <li class="nav-item" >
+        <img class="nav-link" style="width:120px;height:65px;overflow:hidden;" src="img/logomed.png" alt="logomh" href="index.html">
+      </li>
+      <li class="nav-item" style="margin-left:20%;">
+        <a class="nav-link" href="site.html" style="font-size:24">Accueil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="inscription.html" style="font-size:24">Inscription</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="font-size:24">Nos partenaires et sponsors</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#" style="font-size:24" tabindex="-1" aria-disabled="true">A propos</a>
+      </li>
+    </ul>
+
+    <div style="background-color:rgba(220,220,220,0.3);">
+<form style="width: 1000px; margin: auto;border: 1px solid black;padding: 12px;margin-bottom: 30px;color:black;
+  background-color:rgba(137, 210, 220, 0.4 );font-size: 1.5em;">
+  <h1 style="font-size:40px;font-style:italic; text-align:center; margin-top: 3%; margin-left:10%;margin-right:10%">Informations personnelles</h1>
+  <br />
+  <div class="for-group">
+   <label for="inputNom">Nom</label> 
+      <input class="form-control" type="nom" id="inputNom"  placeholder="Nom*" required>
+    </div> 
+    
+    <div class="form-group">
+    <label for="inputPrénom" >Prénom</label>
+      <input type="prénom" class="form-control" id="inputPrénom" placeholder="Prénom*" required>
+    </div>
+     
+  <div class="form-group">
+    <label for="inputEmail" >Adresse E-mail</label>
+      <input type="email" class="form-control" id="inputEmail" placeholder="Adresse mail*" required>
+    </div>
+    <div class="form-group">
+    <label for="inputNumero" >Numéro de téléphone</label>
+      <input type="number" class="form-control" id="inputNumero" placeholder="Numéro de téléphone*" required>
+    </div>
+
+    <br />
+  <div class="form-group">
+    <label for="inputEcole" >Ecole\Université</label>
+      <input type="Ecole\Université" class="form-control" id="inputEcole" placeholder="Ecole\Université*" required>
+    </div>
+    <br />
+  <div class="form-group">
+    <label for="inputfacebook">Lien vers le profil Facebook</label>
+      <input type="facebook" class="form-control" id="inputfacebook" placeholder="Lien vers le profil Facebook*" required>
+    </div>
+   
+  <div class="form-group">
+    <label for="inputlinkedin" >Lien vers le profil LinkedIn</label>
+      <input type="linkedin" class="form-control" id="inputlinkedin" placeholder="Lien LinkedIn*" required>
+    </div>
+    
+  <div class="form-group">
+    <label for="inputgithub">Lien vers le profil GitHub</label>
+      <input type="github" class="form-control" id="inputgithub" placeholder="Lien GitHub pour les informaticiens">
+    </div>
+
+
+  <br />
+   <br />
+
+  <h1 style="font-size:40px;font-style:italic; text-align:center; margin-top: 3%; margin-left:10%;margin-right:10%">Participation</h1>
+  <br />
+  <p>Type d'inscription*</p>
+  <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">En solo</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">En équipe</label>
+</div>
+
+<br/>
+<br/>
+
+<div class="form-group">
+    <label for="inputnomeq">Nom de l'équipe</label>
+      <input type="nomeq" class="form-control" id="inputnomeq">
+      <br/>
+
+
+   <div class="form-group">
+    <label for="exampleFormControlSelect1">Nombres de membres</label>
+    <select class="form-control form-control-lg" id="exampleFormControlSelect1" required>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <br />
+
+   <div class="form-group">
+    <label for="idee">Présentez brièvement votre idée</label>
+    <textarea class="form-control" name="idee" id="idee" placeholder="Présentez brièvement votre idée" rows="3" required></textarea>
+  </div>
+
+
+<br />
+ <br />
+
+
+   <center><h1 style="font-size:40px;font-style:italic; text-align:center; margin-top: 3%; margin-left:10%;margin-right:10%">Informations complémentaires</h1></center>
+<br />
+   Avez-vous déjà participé à un hackathon ? <br/>
+     <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineOui" id="inlineOui" value="Oui">
+  <label class="form-check-label" for="inlineOui">Oui</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineNon" id="inlineNon" value="Non">
+  <label class="form-check-label" for="inlineNon">Non</label>
+</div>
+<br/>
+<br/>
+
+  <div class="form-group">
+    <label for="experience">Oui ? Racontez-nous votre expérience !</label>
+    <textarea class="form-control" name="experience" id="experience" placeholder="racontez en quelques lignes votre experience" rows="3" required></textarea>
+  </div>
+  <br/>
+
+  <div class="form-group">
+    <label for="com">Comment avez-vous entendu parler de notre événement ?</label>
+    <select class="form-control" id="com" required>
+      <option>Amis</option>
+      <option>Réseaux sociaux</option>
+      <option>Publicité</option>
+      <option>Autre</option>
+    </select>
+  </div>
+ 
+  <div class="for-group">
+   <label for="inputOther">Si autre, veuillez préciser</label> 
+      <input class="form-control" type="Other" id="inputOther"  placeholder="Si autre, veuillez preciser">
+    </div> 
+<br/>
+  
+   <div class="form-group">
+    <label for="attentes">Qu'attendez-vous de notre événement ?</label>
+    <textarea class="form-control" name="attente" id="attentes" placeholder="Quelles sont vos attentes pour cet évent?*" rows="3" required></textarea>
+  </div>
+  <br/>
+  
+
+  <div class="form-group">
+    <label for="raisons">Quelles raisons vous motivent à participer à notre événement ?</label>
+    <textarea class="form-control" id="raisons" name="raison" placeholder="Quelles raisons vous motivent à participer à notre événement ?" rows="3" required></textarea>
+  </div>
+  <br/>
+  
+  <div class="form-group">
+    <label for="other">Voulez-vous ajouter quelque chose?</label>
+    <textarea class="form-control" id="other" name="other" placeholder="Voulez-vous ajouter quelque chose ?" rows="3" ></textarea>
+  </div>
+
+
+
+
+<br/>
+
+ 
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <center><button style="font-size:20px; text-align:center; margin-top: 3%; margin-left:10%;margin-right:10%" type="submit" class="btn btn-primary">S'inscrire</button></center>
+    </div>
+  </div>
+</form>
+</div>
+</body>
